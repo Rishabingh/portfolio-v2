@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${poppins.variable} antialiased bg-black scroll-smooth`}
+        className={`${inter.variable} ${poppins.variable} antialiased bg-black text-neutral-200 scroll-smooth`}
       >
         <NavBar />
         {children}
