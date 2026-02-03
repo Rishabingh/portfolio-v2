@@ -11,7 +11,7 @@ export default function Project() {
         description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium beatae accusantium ratione, ducimus saepe ullam porro odio, quasi fugit quidem adipisci unde."
         githubLink="https://github.com/"
         liveLink="https://rishab.online"
-        caseStudyPath="/projects/todo"
+        caseStudyPath="/project/placeholder"
         technology={['Nextjs', 'react', 'tailwind', 'jwt auth', 'expressjs', 'razory pay', 'Oauth', 'multer']}
         />
         <ProjectCard
@@ -20,7 +20,7 @@ export default function Project() {
         description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium beatae accusantium ratione, ducimus saepe ullam porro odio, quasi fugit quidem adipisci unde."
         githubLink="https://github.com/"
         liveLink="https://rishab.online"
-        caseStudyPath="/projects/todo"
+        caseStudyPath="/project/placeholder"
         technology={['Nextjs', 'react', 'tailwind', 'jwt auth', 'expressjs', 'razory pay', 'Oauth', 'multer']}
         />
         <ProjectCard
@@ -29,7 +29,7 @@ export default function Project() {
         description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium beatae accusantium ratione, ducimus saepe ullam porro odio, quasi fugit quidem adipisci unde."
         githubLink="https://github.com/"
         liveLink="https://rishab.online"
-        caseStudyPath="/projects/todo"
+        caseStudyPath="/project/placeholder"
         technology={['Nextjs', 'react', 'tailwind', 'jwt auth', 'expressjs', 'razory pay', 'Oauth', 'multer']}
         />
       </div>

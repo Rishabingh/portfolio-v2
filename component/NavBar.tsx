@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function NavBar() {
   // ${scrolled ? "backdrop-blur-md bg-black/30 py-3" : "bg-transparent py-8"}
   return (
-    <div className="fixed left-0 right-0 top-0 z-40 hidden lg:block">
+    <div className="fixed left-0 right-0 top-0 z-40 hidden lg:block bg-neutral-400/30 backdrop-blur-md">
       <nav
         className={`flex justify-around w-full items-center font-inter transition-all duration-300 px-8`}
       >

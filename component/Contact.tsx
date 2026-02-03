@@ -1,7 +1,7 @@
 "use client"
 
 import { IoMail } from "react-icons/io5";
-import { FaGithub } from "react-icons/fa6";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import React, { useState } from "react";
 
@@ -38,13 +38,13 @@ export default function Contact() {
           
           </div>
         <div className="flex gap-4 text-2xl w-fit mx-auto mt-6">
-          <a href="https://github.com" 
+          <a href="https://x.com/rishabsiingh" 
             target="_blank"
             rel="noopener noreferrer"
-           className="hover:text-blue-500"><FaGithub /></a>
+           className="hover:text-blue-500"><FaSquareXTwitter /></a>
 
           <a 
-          href="https://github.com" 
+          href="https://www.linkedin.com/in/rishabsingh2/" 
           className="hover:text-blue-500"
           target="_blank"
           rel="noopener noreferrer"

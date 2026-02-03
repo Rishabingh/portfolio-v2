@@ -52,7 +52,7 @@ export default function Hero() {
               </div>
               <div className="flex gap-2">
                 <a
-                  href="https://twitter.com/yourusername"
+                  href="mailto:rishabsiingh@outlook.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="items-center border-2 border-blue-500 rounded-full hover:bg-blue-500 cursor-pointer transition-all ease-in-out duration-300 text-blue-500 hover:text-black h-12 w-12 justify-center flex"
@@ -61,7 +61,7 @@ export default function Hero() {
                   <MdOutlineEmail className="text-2xl" />
                 </a>
                 <a
-                  href="https://twitter.com/yourusername"
+                  href="https://github.com/rishabingh"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="items-center border-2 border-blue-500 rounded-full hover:bg-blue-500 cursor-pointer transition-all ease-in-out duration-300 text-blue-500 hover:text-black h-12 w-12 justify-center flex"
@@ -70,7 +70,7 @@ export default function Hero() {
                   <FiGithub className="text-2xl" />
                 </a>
                 <a
-                  href="https://twitter.com/yourusername"
+                  href="https://www.linkedin.com/in/rishabsingh2/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="items-center border-2 border-blue-500 rounded-full hover:bg-blue-500 cursor-pointer transition-all ease-in-out duration-300 text-blue-500 hover:text-black h-12 w-12 justify-center flex"

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter, Poppins } from "next/font/google";
 import "./globals.css";
-import NavBar from "@/component/NavBar";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -38,7 +37,6 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${poppins.variable} antialiased bg-black text-neutral-200 scroll-smooth`}
       >
-        <NavBar />
         {children}
       </body>
     </html>
