@@ -46,10 +46,14 @@ export default function Hero() {
             </div>
 
             <div className="flex flex-col pt-5 gap-4">
-              <div className="flex gap-2 items-center border-2 border-blue-500 rounded-2xl py-2 px-4 hover:bg-blue-500 cursor-pointer transition-all ease-in-out duration-300 text-blue-500 hover:text-white w-44">
+              <a className="flex gap-2 items-center border-2 border-blue-500 rounded-2xl py-2 px-4 hover:bg-blue-500 cursor-pointer transition-all ease-in-out duration-300 text-blue-500 hover:text-white w-44"
+              href="./resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
                 Download CV
                 <MdOutlineFileDownload className="text-2xl" />
-              </div>
+              </a>
               <div className="flex gap-2">
                 <a
                   href="mailto:rishabsiingh@outlook.com"
