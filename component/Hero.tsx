@@ -8,7 +8,7 @@ import { LuLinkedin } from "react-icons/lu";
 export default function Hero() {
   return (
     <>
-      <section className="relative h-[85vh] w-full">
+      <section className="relative h-[85vh] w-full" id="hero">
         <Image
           src="/bg-portfolio.webp"
           alt="hero background"
@@ -20,7 +20,7 @@ export default function Hero() {
 
         <div className="relative z-10 flex h-full items-center justify-center text-neutral-300">
 
-          <div className="max-w-xs pt-50">
+          <div className="max-w-xs lg:pt-50 pt-20">
 
 
             <div>

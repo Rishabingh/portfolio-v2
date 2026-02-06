@@ -17,7 +17,7 @@ export default function Contact() {
     }, 2000)
   }
   return (
-    <div className="w-[75vw] mx-auto pt-32">
+    <div className="w-[75vw] mx-auto pt-32" id="contact">
       <div className="text-2xl font-poppins text-blue-500">Contact</div>
 
       <div className="mx-auto w-fit text-2xl pt-10">
@@ -25,7 +25,7 @@ export default function Contact() {
         Feel free to reach out.
       </div>
 
-      <div className="w-xs mx-auto mt-10">
+      <div className="w-xs mx-auto mt-10 flex flex-col items-center justify-center">
         <div className="flex gap-2 items-center">
           <a 
           href="mailto:rishabsiingh@outlook.com"

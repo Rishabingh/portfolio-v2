@@ -26,45 +26,33 @@ export default function NavBar() {
         <ul className="flex gap-12 items-center">
           <li>
             <Link
-              href="home"
-              className="cursor-pointer transition-colors duration-300"
+              href="#hero"
             >
               Home
             </Link>
           </li>
 
           <li>
-            <Link href="about">About-Me</Link>
+            <Link href="#project">Projects</Link>
           </li>
 
           <li>
-            <Link href="skills">Skills</Link>
+            <Link href="#skill">Skills</Link>
           </li>
 
           <li>
             <Link
-              href="projects"
-              className="cursor-pointer transition-colors duration-300"
+              href="#about"
             >
-              Projects
+              About-Me
             </Link>
           </li>
 
           <li>
             <Link
-              href="contact"
-              className="cursor-pointer transition-colors duration-300"
+              href="#contact"
             >
               Contact
-            </Link>
-          </li>
-
-          <li>
-            <Link
-              href="education"
-              className="cursor-pointer transition-colors duration-300"
-            >
-              Education
             </Link>
           </li>
         </ul>

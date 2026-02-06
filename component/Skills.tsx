@@ -12,7 +12,7 @@ import { DiNginx } from "react-icons/di";
 
 export default function Skills() {
   return (
-    <div className="w-[75vw] mx-auto pt-14">
+    <div className="w-[75vw] mx-auto pt-14" id="skill">
       <div className="text-2xl font-poppins text-blue-500">Skills</div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-10">
         <SkillCard title='frontend'>

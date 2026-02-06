@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import Link from "next/link";
+import { Metadata } from "next";
 
 export default function ProjectLayout({
   children,
@@ -40,3 +41,8 @@ export default function ProjectLayout({
     </section>
   );
 }
+
+export const metadata: Metadata = {
+  title: "Project",
+  description: "Portfolio showcasing projects, case studies, and frontend work",
+};

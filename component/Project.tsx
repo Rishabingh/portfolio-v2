@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard"
 
 export default function Project() {
   return (
-    <div className="w-[75vw] mx-auto pt-32">
+    <div className="w-[75vw] mx-auto pt-32" id="project">
       <div className="text-2xl font-poppins text-blue-500">Projects</div>
       <div className="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-10">
         <ProjectCard

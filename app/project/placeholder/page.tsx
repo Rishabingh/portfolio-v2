@@ -2,6 +2,7 @@ import ProjectHero from "@/app/project/(components)/ProjectHero";
 import Image from "next/image";
 import { IoLogoGithub } from "react-icons/io";
 import { MdNorthEast } from "react-icons/md";
+import { Metadata } from "next";
 
 export default function PlaceHolder() {
   return (
@@ -164,3 +165,8 @@ export default function PlaceHolder() {
     </div>
   );
 }
+
+export const metadata: Metadata = {
+  title: "Project- placeholder",
+  description: "case study of project name placeholder",
+};
