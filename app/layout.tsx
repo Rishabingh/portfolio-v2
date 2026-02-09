@@ -23,7 +23,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Rishab -Porfolio",
+  title: "Rishab - Porfolio",
   description: "Portfolio showcasing projects, case studies, and frontend work",
 };
 

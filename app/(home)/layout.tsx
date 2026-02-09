@@ -7,6 +7,5 @@ export default function ProjectLayout({children}: {children: react.ReactNode}) {
       <NavBar />
       {children} 
     </>
-
   )
 }
