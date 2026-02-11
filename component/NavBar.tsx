@@ -9,7 +9,42 @@ import { useState, useEffect } from "react";
 export default function NavBar() {
     const [sidebarOpen, setSidebarOpen] = useState<boolean>(false);
     const [scrolled, setScrolled] = useState(false);
+    const [activeSection, setActiveSection] = useState("hero");
+
   // ${scrolled ? "backdrop-blur-md bg-black/30 py-3" : "bg-transparent py-8"}
+
+  useEffect(() => {
+    const sections = document.querySelectorAll('section');
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id)
+          }
+        });
+      },
+      {
+        // add rootMargin later to make it work on mobile
+       threshold: 0.1,
+       rootMargin: "-80px 0px -50% 0px"
+      }
+    );
+    sections.forEach((section) => {
+      observer.observe(section);
+    });
+
+    return () => {
+      sections.forEach((section) => observer.unobserve(section));
+    };
+  }, []);
+
+const navLinkClass = (section: string) =>
+  `relative px-1 pb-1 transition-all duration-300 ${
+    activeSection === section
+      ? "text-blue-500 font-semibold after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-full after:bg-blue-500 after:transition-all after:duration-300"
+      : "text-neutral-200 hover:text-blue-400 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-blue-400 hover:after:w-full after:transition-all after:duration-300"
+  }`;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,9 +54,7 @@ export default function NavBar() {
         setScrolled(false);
       }
     };
-
     window.addEventListener("scroll", handleScroll);
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -49,23 +82,23 @@ export default function NavBar() {
           </div>
           <ul className="gap-12 items-center hidden lg:flex">
             <li>
-              <Link href="#hero">Home</Link>
+              <Link href="#hero" className={navLinkClass('hero')}>Home</Link>
             </li>
 
             <li>
-              <Link href="#project">Projects</Link>
+              <Link href="#project" className={navLinkClass('project')}>Projects</Link>
             </li>
 
             <li>
-              <Link href="#skill">Skills</Link>
+              <Link href="#skill" className={navLinkClass('skill')}>Skills</Link>
             </li>
 
             <li>
-              <Link href="#about">About-Me</Link>
+              <Link href="#about" className={navLinkClass('about')}>About-Me</Link>
             </li>
 
             <li>
-              <Link href="#contact">Contact</Link>
+              <Link href="#contact" className={navLinkClass('contact')}>Contact</Link>
             </li>
           </ul>
 
@@ -79,7 +112,8 @@ export default function NavBar() {
       </div>
 
       <Sidebar
-        className={`px-3 pb-3 pt-22 bg-black/30 backdrop-blur-md fixed top-11 right-0 bottom-0 ${sidebarOpen ? "translate-x-0" : "translate-x-full"} w-2xs z-30 transition-transform duration-300 `}
+        className={`px-3 pb-3 pt-22 bg-black/30 backdrop-blur-md fixed top-11 right-0 bottom-0 ${sidebarOpen ? "translate-x-0" : "translate-x-full"} w-2xs z-30 transition-transform duration-300`}
+        activeSection={activeSection}
       />
 
       {sidebarOpen && (

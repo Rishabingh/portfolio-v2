@@ -5,7 +5,7 @@ import { FaCode } from "react-icons/fa";
 const About = () => {
 
   return (
-    <div className='w-[75vw] mx-auto pt-32' id='about'>
+    <section className='w-[75vw] mx-auto pt-32' id='about'>
       <h1 className='text-2xl font-poppins text-blue-500'>About Me</h1>
       <div className='flex gap-8 md:flex-row flex-col justify-center mx-auto pt-10'>
         <div className='flex-1 flex flex-col'>
@@ -28,7 +28,7 @@ const About = () => {
           </ul>
         </div>
         </div>
-    </div>
+    </section>
   )
 }
 
