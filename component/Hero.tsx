@@ -47,7 +47,7 @@ export default function Hero() {
 
             <div className="flex flex-col pt-5 gap-4">
               <a className="flex gap-2 items-center border-2 border-blue-500 rounded-2xl py-2 px-4 hover:bg-blue-500 cursor-pointer transition-all ease-in-out duration-300 text-blue-500 hover:text-white w-44"
-              href="./resume.pdf"
+              href="https://docs.google.com/document/d/1YArb54uBXTDAPBdeUH3jlWiAxszag2sHPA8A3mam5LQ/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               >
