@@ -16,12 +16,12 @@ export default function Project() {
         />
         <ProjectCard
         imagePath="project-placeholder.webp"
-        title="this is the project"
-        description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium beatae accusantium ratione, ducimus saepe ullam porro odio, quasi fugit quidem adipisci unde."
-        githubLink="https://github.com/"
+        title="Trip Pilot (AI Travel Planner)"
+        description="Trip Pilot is a full-stack SaaS application that takes the hassle out of travel planning. By leveraging the Google Gemini API, it generates highly personalized, day-by-day travel itineraries based on user preferences, complete with intelligent scheduling and budget breakdowns."
+        githubLink="https://github.com/Rishabingh/trip-pilot"
         liveLink="https://rishab.online"
-        caseStudyPath="/project/placeholder"
-        technology={['Nextjs', 'react', 'tailwind', 'jwt auth', 'expressjs', 'razory pay', 'Oauth', 'multer']}
+        caseStudyPath="/project/tripPilot"
+        technology={['Nextjs', 'react', 'tailwind', 'jwt auth', 'react markdown']}
         />
         <ProjectCard
         imagePath="project-placeholder.webp"
