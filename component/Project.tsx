@@ -7,19 +7,19 @@ export default function Project() {
       <div className="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-10">
         <ProjectCard
         imagePath="project-placeholder.webp"
-        title="this is the proj"
-        description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium beatae accusantium ratione, ducimus saepe ullam porro odio, quasi fugit quidem adipisci unde."
-        githubLink="https://github.com/"
+        title="Course Craft"
+        description="Course Craft A learning management and Course Selling platform with role based access where admin can create course, manage platform and users and user can buy and watch courses"
+        githubLink=" https://github.com/Rishabingh/course-craft"
         liveLink="https://rishab.online"
         caseStudyPath="/project/placeholder"
-        technology={['Nextjs', 'react', 'tailwind', 'jwt auth', 'expressjs', 'razory pay', 'Oauth', 'multer']}
+        technology={['react', 'tailwind', 'jwt auth', 'expressjs', 'multer', 'cloudinary', 'tanstackquery', 'zod', 'zustand', 'react router']}
         />
         <ProjectCard
         imagePath="project-placeholder.webp"
         title="Trip Pilot (AI Travel Planner)"
         description="Trip Pilot is a full-stack SaaS application that takes the hassle out of travel planning. By leveraging the Google Gemini API, it generates highly personalized, day-by-day travel itineraries based on user preferences, complete with intelligent scheduling and budget breakdowns."
         githubLink="https://github.com/Rishabingh/trip-pilot"
-        liveLink="https://rishab.online"
+        liveLink="https://trip.rishabs.online/"
         caseStudyPath="/project/tripPilot"
         technology={['Nextjs', 'react', 'tailwind', 'jwt auth', 'react markdown']}
         />

@@ -9,9 +9,10 @@ export default function PlaceHolder() {
     <div>
       {/*project hero section title links and description*/}
       <ProjectHero
-        title="TaskFlow - Project Management Platform"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quia magnam accusantium aliquid tempora consequuntur veniam odit dignissimos necessitatibus adipisci, eum animi ea."
-        gitHubLink="https://github.com"
+        title="Course Craft - Learning Management and Course Selling platform"
+        description="A full-stack course-selling platform with secure Role-Based Access Control (RBAC), allowing
+administrators to monetize content and users to access purchased courses"
+        gitHubLink="https://github.com/Rishabingh/course-craft"
         liveLink="https://rishab.online"
         year={2026}
         type="Full Stack Application"
@@ -36,18 +37,21 @@ export default function PlaceHolder() {
               <li>- Next.js (App Router)</li>
               <li>- TypeScript</li>
               <li>- TailwindCSS</li>
-              <li>- Redux Toolkit</li>
+              <li>- Tanstack Query</li>
               <li>- Axios</li>
+              <li>- Zustand</li>
             </ul>
           </div>
           <div>
             <h3 className="text-lg font-medium mb-2">Backend</h3>
             <ul>
-              <li>- Next.js (API Routes)</li>
+              <li>- Express Js</li>
               <li>- JWT Authentication</li>
-              <li>- Passport.js</li>
+              <li>- Multer</li>
+              <li>- Cloudinary</li>
               <li>- MongoDB & Mongoose</li>
-              <li>- Nodemailer</li>
+              <li>- Resend Email</li>
+              <li>- Zod</li>
             </ul>
           </div>
           <div>
@@ -55,10 +59,9 @@ export default function PlaceHolder() {
               Infrastructure & Services
             </h3>
             <ul>
-              <li>- Vercel (Deployment)</li>
+              <li>- Aws Ec2</li>
               <li>- MongoDB Atlas (Database)</li>
               <li>- Cloudinary (Media Storage)</li>
-              <li>- Payment Gateway (Razorpay)</li>
             </ul>
           </div>
         </div>
@@ -156,7 +159,7 @@ export default function PlaceHolder() {
           <MdNorthEast className="text-xl" /> <span>View Live Website</span>
         </a>
         <a
-          href="https://github.com"
+          href="https://github.com/Rishabingh/course-craft"
           className="flex gap-2 items-center bg-neutral-700 rounded-md p-1 hover:bg-neutral-800"
         >
           <IoLogoGithub className="text-xl" /> <span>View on GitHub</span>
@@ -167,6 +170,6 @@ export default function PlaceHolder() {
 }
 
 export const metadata: Metadata = {
-  title: "Project- placeholder",
+  title: "Course Craft",
   description: "case study of project name placeholder",
 };

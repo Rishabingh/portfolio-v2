@@ -20,7 +20,7 @@ export default function Contact() {
     <section className="w-[75vw] mx-auto pt-32" id="contact">
       <div className="text-2xl font-poppins text-blue-500">Contact</div>
 
-      <div className="mx-auto w-fit text-2xl pt-10">
+      <div className="mx-auto w-fit text-2xl pt-10 text-center md:text-left">
         I&apos;m open to opportunities and collaborations,
         Feel free to reach out.
       </div>
